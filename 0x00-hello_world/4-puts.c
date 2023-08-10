@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main -main fn
- * Description: This program demonstrates use of puts function to print a message.
+ * Description: program demonstrates use of puts function to print a msg.
  * Return: 0 if successful.
  */
 int main(void)

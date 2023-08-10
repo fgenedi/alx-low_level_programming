@@ -1,8 +1,7 @@
-#!/bin/bash
 #include <stdio.h>
 /**
  * main - main function
- * Description: This program demonstrates the use of the printf function to print a message.
+ * Description: program demonstrates use of printf function to print a msg
  * Return: Always 0 if successful.
  */
 int main(void)
