@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-char letter;
+char a;
 char z;
 char n;
 n = n;
-letter = a;
+a = a;
 z = z;
 while (letter <= z)
  {
