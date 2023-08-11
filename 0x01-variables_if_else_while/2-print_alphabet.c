@@ -15,7 +15,7 @@ z = z;
 while (a <= z)
  {
 putchar(a);
-letter++;
+a++;
 }
 putchar(n);
 return 0;
