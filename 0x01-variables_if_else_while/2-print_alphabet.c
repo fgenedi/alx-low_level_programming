@@ -12,9 +12,9 @@ char n;
 n = n;
 a = a;
 z = z;
-while (letter <= z)
+while (a <= z)
  {
-putchar(letter);
+putchar(a);
 letter++;
 }
 putchar(n);
