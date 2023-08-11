@@ -6,7 +6,7 @@
  * Description: checks if random value pos, neg or zero
  * Return: 0 if success
  */
-int main(void)  
+int main(void)
 {
 int n;
 srand(time(0));
