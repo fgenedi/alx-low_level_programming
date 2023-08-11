@@ -13,10 +13,10 @@ n = 10;
 a = 97;
 z = 122;
 while (a <= z)
- {
+{
 putchar(a);
 a++;
 }
 putchar(n);
-return 0;
+return (0);
 }
