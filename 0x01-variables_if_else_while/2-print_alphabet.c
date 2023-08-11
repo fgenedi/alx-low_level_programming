@@ -8,13 +8,15 @@ int main(void)
 {
 char letter;
 char z;
+char n;
+n = n;
 letter = a;
 z = z;
 while (letter <= z)
-{
+ {
 putchar(letter);
 letter++;
 }
 putchar(n);
-return (0);
+return 0;
 }
