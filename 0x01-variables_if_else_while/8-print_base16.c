@@ -11,9 +11,9 @@ char n;
 char start;
 char zero;
 a = 0;
-n = n;
-start = a;
-zero = 0;
+n = 10;
+start = 97;
+zero = 48;
 while (a < 10)
 {
 putchar(a + zero);
