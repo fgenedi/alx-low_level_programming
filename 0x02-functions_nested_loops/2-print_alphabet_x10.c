@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_alphabet - a function
- * Description: prints alphabet
- * Return: 0 if success
+ * print_alphabet_x10 - a function
+ * Description: prints alphabet 10 times
+ * Return: void
  */
 void print_alphabet_x10(void)
 {
@@ -22,7 +22,7 @@ while (a <= z)
 putchar(a);
 a++;
 }
+putchar(n);
 i++;
 }
-putchar(n);
 }
