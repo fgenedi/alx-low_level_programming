@@ -13,10 +13,10 @@ char n;
 int i;
 i = 1;
 n = 10;
-a = 97;
 z = 122;
 while (i <= 10)
 {
+a = 97;
 while (a <= z)
 {
 putchar(a);
