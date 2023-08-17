@@ -1,9 +1,5 @@
-#include "main.h"
-#include <stdio.h>
 /**
  * more_numbers - entry point
- *
- * Description: Prints the numbers with _putchar
  *
  * Return: void
  */
@@ -17,6 +13,6 @@ for(i = 0; i < 15; i++)
 {
 _putchar(i);
 }
-}
 _putchar(10);
+}
 }
