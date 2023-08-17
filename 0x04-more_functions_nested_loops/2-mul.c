@@ -1,10 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * mul - multiples two digits
- *
- * @c: checked
- * Return: multiplication result.
+ * mul - input
+ * Description: multiplies 2 numbers
+ * @a: first number
+ * @b: second number
+ * Return: the answer
  */
 int mul(int a, int b)
 {
