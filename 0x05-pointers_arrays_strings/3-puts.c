@@ -15,7 +15,7 @@ if (*str == 0)
 putchar (10);
 return;
 }
-putchar (*s);
+putchar (*str);
 str++;
 }
 }
