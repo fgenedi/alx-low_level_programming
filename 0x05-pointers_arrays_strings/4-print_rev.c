@@ -9,7 +9,7 @@
 void print_rev(char *s)
 {
 char *temp;
-temp = s;
+temp = s - 1;
 while (1)
 {
 if (*s == 0)
