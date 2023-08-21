@@ -10,12 +10,12 @@ void _puts(char *str)
 {
 while (1)
 {
-if (*s == 0)
+if (*str == 0)
 {
-_putchar (10);
+putchar (10);
 return;
 }
-_putchar (*s);
-s++;
+putchar (*s);
+str++;
 }
 }
