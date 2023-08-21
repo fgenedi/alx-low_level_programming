@@ -15,6 +15,7 @@ length++;
 if (length % 2 == 1)
 {
 half = (length - 1) / 2;
+half++;
 }
 else
 {
