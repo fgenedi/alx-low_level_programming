@@ -2,20 +2,20 @@
 #include <stdio.h>
 /**
  * puts2 - prints every other character
- * @s: string
+ * @str: string
  */
 void puts2(char *str)
 {
 int x;
 x = 1;
-while(1)
+while (1)
 {
 if (*str == 0)
 {
 putchar (10);
 return;
 }
-if ( x == 1)
+if (x == 1)
 {
 putchar (*str);
 x = 0;
