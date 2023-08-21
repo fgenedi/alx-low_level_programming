@@ -11,11 +11,12 @@ while(1)
 {
 if (*str == 0)
 {
+_putchar (10);
 return;
 }
 if ( x == 1)
 {
-putchar (*str);
+_putchar (*str);
 x = 0;
 }
 else
