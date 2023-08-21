@@ -16,8 +16,8 @@ if (*s == 0)
 {
 while (s != temp)
 {
-putchar (*s);
 s--;
+putchar (*s);
 }
 putchar (*s);
 putchar (10);
