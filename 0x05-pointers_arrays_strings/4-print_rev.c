@@ -16,9 +16,10 @@ if (*s == 0)
 {
 while (s != temp)
 {
-putchar (10);
+putchar (*s);
 s--;
 }
+putchar (10);
 return;
 }
 s++;
