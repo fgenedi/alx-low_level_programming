@@ -9,7 +9,7 @@
 void print_rev(char *s)
 {
 char *temp;
-temp = s - 1;
+temp = s;
 while (1)
 {
 if (*s == 0)
@@ -19,6 +19,7 @@ while (s != temp)
 putchar (*s);
 s--;
 }
+putchar (*s);
 putchar (10);
 return;
 }
