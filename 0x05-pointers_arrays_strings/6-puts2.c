@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * puts2 - prints every other character
  * @s: string
@@ -11,12 +12,12 @@ while(1)
 {
 if (*str == 0)
 {
-_putchar (10);
+putchar (10);
 return;
 }
 if ( x == 1)
 {
-_putchar (*str);
+putchar (*str);
 x = 0;
 }
 else
