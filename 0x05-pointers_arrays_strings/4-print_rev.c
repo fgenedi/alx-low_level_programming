@@ -19,7 +19,6 @@ while (s != temp)
 s--;
 putchar (*s);
 }
-putchar (*s);
 putchar (10);
 return;
 }
