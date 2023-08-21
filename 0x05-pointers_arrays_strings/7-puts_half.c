@@ -12,10 +12,13 @@ while (str[length] != 0)
 {
 length++;
 }
-half = (length - 1) / 2;
-if (half % 2 == 1)
+if (length % 2 == 1)
 {
-half++;
+half = (length - 1) / 2;
+}
+else
+{
+half = length / 2;
 }
 while (half < length)
 {
