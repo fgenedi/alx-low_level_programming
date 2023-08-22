@@ -7,12 +7,12 @@
  */
 void print_array(int *a, int n)
 {
+int i;
 if (n < 1)
 {
 putchar (10);
 return;
 }
-int i;
 i = 0;
 while (i < n - 1)
 {
