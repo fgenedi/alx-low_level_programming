@@ -3,10 +3,15 @@
 /**
  * print_array - prints n of array
  * @a: array
- * @n : num to print
+ * @n: num to print
  */
 void print_array(int *a, int n)
 {
+if (n < 1)
+{
+putchar (10);
+return;
+}
 int i;
 i = 0;
 while (i < n - 1)
