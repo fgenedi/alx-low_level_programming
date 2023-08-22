@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include stdilib.h
+#include <stdilib.h>
 /**
  * print_array - prints n of array
  * @a: array
