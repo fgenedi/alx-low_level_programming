@@ -12,7 +12,7 @@ int i;
 int j;
 int temp;
 i = 0;
-j = n;
+j = n - 1;
 for (; i < n/2; i++, j--)
 {
 temp = a[i];
