@@ -13,7 +13,7 @@ int j;
 int temp;
 i = 0;
 j = n;
-for(i = 0; i < n/2; i++, j--)
+for (; i < n/2; i++, j--)
 {
 temp = a[i];
 a[i] = a[j];
