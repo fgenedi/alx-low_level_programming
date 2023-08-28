@@ -1,10 +1,11 @@
+#include <stdio.h>
 #include "main.h"
 /**
 *print_chessboard - prints mxn chessboard
 *a: array to print
 *Return: void
 */
-void print_chessboard(char (*a)[8]);
+void print_chessboard(char (*a)[8])
 {
 int i;
 int j;
