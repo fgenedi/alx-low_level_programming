@@ -16,6 +16,7 @@ if (s[i] == c)
 s = s + i;
 return (s);
 }
+i++;
 }
 return (00);
 }
