@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * leet - function that encodes a string into 1337
+ * _memset - sets memory are to a char
  * @s: pointer to start of mem area
  * @b: char to fill memory
  * @n: number of bytes to fill
@@ -12,8 +12,7 @@ int i;
 i = 0;
 for (; i < n; i++)
 {
-*s = b;
-s++;
+s[i] = b;
 }
 return (s);
 }
