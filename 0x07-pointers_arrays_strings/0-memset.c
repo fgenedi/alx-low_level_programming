@@ -1,18 +1,23 @@
+/*
+ * File: 0-memset.c
+ * Auth: not
+ */
 #include "main.h"
 /**
- * _memset - sets memory are to a char
- * @s: pointer to start of mem area
- * @b: char to fill memory
- * @n: number of bytes to fill
- * Return: pointer to start.
- */
+*_memset - The _memset() function fills
+* the first n bytes of the memory area
+* pointed to by s with the constant byte b
+*@s:target
+*@b: constant byte
+*@n:number of byte
+*Return: returns new value of target
+*/
 char *_memset(char *s, char b, unsigned int n)
 {
-int i;
-i = 0;
-for (; i < n; i++)
+while (n)
 {
-s[i] = b;
+s[n - 1] = b;
+n--;
 }
 return (s);
 }
