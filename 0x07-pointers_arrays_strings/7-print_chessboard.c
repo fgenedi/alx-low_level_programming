@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
 * print_chessboard - print chessboard given set 2D array
@@ -13,7 +14,7 @@ column = 0;
 for (; row < 8; row++)
 {
 for (; column < 8; column++)
-_putchar(a[row][column]);
-_putchar(10);
+putchar(a[row][column]);
+putchar(10);
 }
 }
